@@ -9,6 +9,8 @@
  */
 var name = "Sihan"
 
+
+
 /*:
  Declare a variable called `distanceTraveled` and set it to 0. Do not give it an explicit type.
  */
