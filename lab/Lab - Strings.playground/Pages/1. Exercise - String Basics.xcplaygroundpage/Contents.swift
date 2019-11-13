@@ -17,6 +17,7 @@ let myName = "Sihan"
  */
 let myFavoriteQuote = "HI"
 print("My favorite quote is \(myFavoriteQuote)")
+print("My facorite quote is \"Hi\"")
 
 /*:
  Write an if-else statement that prints "There's nothing here" if `emptyString` is empty, and "It's not as empty as I thought" otherwise.
