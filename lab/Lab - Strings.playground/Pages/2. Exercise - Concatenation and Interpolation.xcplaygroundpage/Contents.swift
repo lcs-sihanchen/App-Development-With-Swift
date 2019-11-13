@@ -5,7 +5,7 @@
  */
 let city = "Suzhou"
 let state = "Zhejiang"
-
+let home = city + " " + state
 /*:
  Use the compound assignment operator (`+=`) to add `home` to `introduction` below. Print the value of `introduction`.
  */
@@ -23,4 +23,10 @@ let name = "Sihan"
 let age = 15
 print("My name is \(name) and after my next birthday I will be \(age + 1) years old.")
 
+
+// When can concatemation is not enough
+let declaration = "My favorite number is"
+let number = 10
+// let sentence = declaration + number // Cannot concatemate string with int
+let sentence = "\(declaration) \(number)"
 //: [Previous](@previous)  |  page 2 of 5  |  [Next: App Exercise - Notifications](@next)
