@@ -30,7 +30,7 @@ if name.lowercased() == nameInCaps.lowercased() {
  Imagine you are looking through a list of names to find any that end in "Jr." Write an if statement below that will check if `junior` has the suffix "Jr.". If it does, print "We found a second generation name!"
  */
 let junior = "Cal Ripken Jr."
-if junior.contains("Jr.") {
+if junior.hasSuffix("Jr.") {
     print("We found a second generation name!")
 }
 
@@ -40,7 +40,7 @@ if junior.contains("Jr.") {
 import Foundation
 let textToSearchThrough = "To be, or not to be--that is the question"
 let textToSearchFor = "to be, or not to be"
-if textToSearchThrough.contains(textToSearchFor) {
+if textToSearchThrough.lowercased().contains(textToSearchFor) {
     print("I found it!")
 }
 
